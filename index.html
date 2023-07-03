@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Anurag Yadav | Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BoxIcons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header1">
+      <a href="" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+    </div>
+
+    <div class="nnav">
+      <nav
+        class="mobile-nav nav container"
+        id="navigation"
+        style="position: fixed"
+      >
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="bx bx-home-alt"></i
+              ></a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"><i class="bx bx-user"></i></a>
+            </li>
+            <li class="nav__item">
+              <a href="#ec" class="nav__link"><i class="bx bxs-award"></i></a>
+            </li>
+            <li class="nav__item">
+              <a href="#sl" class="nav__link"><i class="bx bx-book"></i></a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="bx bxs-briefcase-alt-2"></i
+              ></a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="bx bx-message-square-detail"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h4>Hii, It's me</h4>
+        <h1>Anurag Yadav</h1>
+        <h4>I'm a <span class="multiple-text"></span></h4>
+        <p id="mainC">
+          I am currently pursuing a B.E. in Information Technology at St.
+          Francis Institute of Technology, affiliated with Mumbai University.
+          <br />
+          As the Tech Head @CSI_SFIT, I oversee technical initiatives, organize
+          events, and promote the exploration of cutting-edge technologies.
+          <br />
+          I actively engage in staying updated with the latest advancements in
+          the field to drive innovation.
+        </p>
+        <div class="social-media">
+          <a href="https://wa.me/+919136228224?text=Hello!" target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a href="mailto:anuragmyitworld@gmail.com" target="_blank"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+          <a href="https://www.instagram.com/_anurag653/" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://github.com/Anurag0605" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/anurag-yadav-2177b3201/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a
+          href="images/Anurag_Resume_Latest.pdf"
+          class="btn"
+          download="Anurag_Yadav_Resume"
+          >Download Resume</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="images/AnuragFinal1 - Copy.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/FT.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h1 class="heading">About <span>Me!</span></h1>
+        <h4>Web Developer and Programmer</h4>
+        <p>
+          I am Anurag Kaushal Yadav, pursuing a Bachelors of Engineering in
+          Information Technology (B.E. IT) from St. Francis Institute of
+          Technology, affiliated with Mumbai University. <br />
+          Currently in my third year, I serve as the Tech Head at CSI_SFIT. My
+          interests revolve around Web Development, Android Development, and
+          various programming languages including C, C++, Java, Python, HTML,
+          CSS, JavaScript, PHP, and MySQL. <br />
+        </p>
+        <div id="content" style="display: none">
+          <p>
+            Apart from my academic pursuits, I indulge in hobbies such as
+            playing cricket and badminton to maintain an active lifestyle.
+            Additionally, I also devote time to fitness training at the gym.
+            <br />
+            I served as the Technical Head at CSI_SFIT (Computer Society of
+            India) from August 2022 to June 2023. During my tenure, I had the
+            privilege of being a speaker in an online JAVA workshop organized by
+            CSI_SFIT for 1st, 2nd, and 3rd year students of SFIT, which took
+            place on 19th March 2023.
+            <br />
+            Prior to this role, I held the position of Technical Executive at
+            CSI_SFIT from September 2021 to July 2022. In that capacity, I
+            conducted an offline workshop on Python, acting as a mentor for 1st,
+            2nd, and 3rd year students of SFIT, on 9th April 2022. These
+            experiences allowed me to contribute to the development and
+            knowledge sharing within the technical community at SFIT.
+          </p>
+        </div>
+        <button id="toggleButton" class="btn" onclick="toggleContent()">
+          Show More
+        </button>
+      </div>
+    </section>
+    <!-- services section -->
+    <!-- leadership and skills -->
+    <!-- education and certications -->
+    <section class="ec" id="ec">
+      <h2 class="heading">Education and <span>Certifications</span></h2>
+      <div class="ec-container">
+        <div class="ec-box edu">
+          <i class="bx bxs-graduation bx-flip-horizontal"></i>
+          <h3>Education</h3>
+          <table class="table-style" id="tble">
+            <tr>
+              <td>
+                St. Francis Institute of Technology(B.E IT)
+                <p>Borivali(west)</p>
+              </td>
+
+              <td><span>2021 - present</span></td>
+            </tr>
+            <tr>
+              <td>
+                Bharatiya Vidya Bhavans (HSC)
+                <p>Andheri(west)</p>
+              </td>
+              <td><span>2000</span></td>
+            </tr>
+            <tr>
+              <td>
+                B. L. Ruia High School (SSC)
+                <p>Vileparle(east)</p>
+              </td>
+              <td><span>2018</span></td>
+            </tr>
+          </table>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+
+        <div class="ec-box cert">
+          <i class="bx bxs-award bx-flip-horizontal"></i>
+          <h3>Certifications</h3>
+          <p id="ecp">
+            Check out my certifications from different courses I completed from
+            Internshala, Great Learning.
+          </p>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a href="https://trainings.internshala.com/s/v/251892/400b6b9a"
+              >Web Development (Internshala)</a
+            >
+          </div>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a href="https://trainings.internshala.com/s/v/251892/400b6b9a"
+              >Internship and Job Preparation (Internshala)</a
+            >
+          </div>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a
+              href="https://olympus1.mygreatlearning.com/course_certificate/CKIPKCKV"
+              >C Language (Great Learning)</a
+            >
+          </div>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a
+              href="https://olympus1.mygreatlearning.com/course_certificate/QPJZAIKS"
+              >Python Programming (Great Learning)</a
+            >
+          </div>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a
+              href="https://olympus1.mygreatlearning.com/course_certificate/NMHCOFPC"
+              >JavaScript (Great Learning)</a
+            >
+          </div>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a
+              href="https://olympus1.mygreatlearning.com/course_certificate/XCCECMAV"
+              >HTML (Great Learning)</a
+            >
+          </div>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a
+              href="https://olympus1.mygreatlearning.com/course_certificate/XCCECMAV"
+              >CSS Intermediate (Great Learning)</a
+            >
+          </div>
+          <div class="cb">
+            <i class="bx bx-badge-check"></i>
+            <a
+              href="https://olympus1.mygreatlearning.com/course_certificate/XCCECMAV"
+              >Introduction To content Marketing (Great Learning)</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sl" id="sl">
+      <h2 class="heading">Skills and <span>Leadership</span></h2>
+      <div class="sl-container">
+        <div class="sl-box sk">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Skills</h3>
+          <div class="pl tl">
+            <div class="cb">
+              <i class="bx bx-code-curly"></i>
+              <a href=""
+                >C/C++ <br />
+                <span class="sp">(Intermediate)</span>
+              </a>
+              <br />
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-curly"></i>
+              <a href=""
+                >Java <br />
+                <span class="sp">(Intermediate)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-curly"></i>
+              <a href=""
+                >Python <br />
+                <span class="sp">(Intermediate)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-curly"></i>
+              <a href=""
+                >JavaScript <br />
+                <span class="sp">(Intermediate)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-alt"></i>
+              <a href=""
+                >HTML & CSS <br />
+                <span class="sp">(Intermediate)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-alt"></i>
+              <a href=""
+                >Tailwind CSS <br />
+                <span class="sp">(Intermediate)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-alt"></i>
+              <a href=""
+                >Bootstrap <br />
+                <span class="sp">(Intermediate)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-alt"></i>
+              <a href=""
+                >Flutter / Dart <br />
+                <span class="sp">(Basic)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-alt"></i>
+              <a href=""
+                >PHP <br />
+                <span class="sp">(Intermediate)</span></a
+              >
+            </div>
+            <div class="cb">
+              <i class="bx bx-code-alt"></i>
+              <a href=""
+                >MongoDB& MySQL <br />
+                <span class="sp">(Basic)</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="sl-box lds">
+          <i class="bx bxs-user-pin"></i>
+          <h3>Leadership</h3>
+
+          <div class="cb">
+            <a href="">Tech Head @CSI_SFIT</a>
+            <p>
+              As the Technical Head at CSI SFIT, I managed all technical tasks
+              and supported the tech executives. I organized and conducted a
+              successful workshop on JAVA for 1st, 2nd, and 3rd-year students.
+            </p>
+          </div>
+          <div class="cb">
+            <a href="">Tech Executive @CSI_SFIT</a>
+            <p>
+              As a Tech Executive at CSI SFIT, I created engaging technical
+              content for the CSI SFIT Instagram page and conducted a Python
+              workshop for 1st, 2nd, and 3rd-year students, sharing my expertise
+              and equipping them with valuable programming skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/covd.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Python Application</h4>
+            <p>
+              A Python-based MiniProject that utilizes PyQt5 for GUI creation,
+              displaying Covid-19 statistics through graphs, charts, and maps
+              using folium. It incorporates various APIs for real-time data
+              retrieval and updates.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1I0al8svmoKdpO4wUci3v7hg-wzh1kAa1/view?usp=sharing"
+              ><i class="bx bx-video"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/nca3.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Java Application</h4>
+            <p>
+              The Java-based MiniProject is a desktop application that
+              facilitates conversions between number systems and currencies.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1U6j7wK8IMj4GxVlhqfY-9Gq6K2PGGp-8/view?usp=sharing"
+              ><i class="bx bx-video"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/gsw2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Application</h4>
+            <p>
+              A fully functional gym website using HTML, CSS, PHP, and MySQL as
+              a final project for my 2nd-year subject.
+            </p>
+            <a href="https://github.com/Anurag0605/Gym-Website"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/auth2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Authentication (Web-Dev)</h4>
+            <p>
+              Developed a full authentication website using HTML, CSS, PHP,
+              MySQL, and Bootstrap. The website includes login and signup pages
+              to authenticate users within an organization.
+            </p>
+            <a
+              href="https://github.com/Anurag0605/Full-Authentication-in-Web-Dev-"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/pf.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>
+              Developed a personal portfolio using HTML, CSS, and JavaScript.
+              The portfolio showcases my educational background, details about
+              myself, projects I have worked on, and other relevant information.
+            </p>
+            <a href="https://anurag0605.github.io/Portfolio.github.io/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/Ls.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Lifestyle Store</h4>
+            <p>
+              Built a full-fledged e-commerce website during a 6-week training
+              on Internshala, using HTML, CSS, Bootstrap, MySQL, and PHP.
+            </p>
+            <a href="https://github.com/Anurag0605/Lifestyle-store"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact sec -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form id="contactForm">
+        <div class="input-box">
+          <input type="text" id="fullName" placeholder="Full Name" required />
+          <input
+            type="email"
+            id="emailAddress"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="text"
+            id="mobileNumber"
+            placeholder="Mobile Number"
+            required
+          />
+          <input
+            type="text"
+            id="emailSubject"
+            placeholder="Email Subject"
+            required
+          />
+        </div>
+        <textarea
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <input
+          type="submit"
+          onclick="sendEmail()"
+          value="Send Message"
+          class="btn"
+        />
+      </form>
+    </section>
+
+    <!-- footer design -->
+
+    <footer class="footer" id="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Anurag Yadav | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-icon-top">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="js/script.js"></script>
+    <script></script>
+  </body>
+</html>
